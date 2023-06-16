@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.ActionNBA-Light-Web {
+    font-family: "Action NBA  Web";
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.ActionNBA-LightItalic-Web {
+    font-family: "Action NBA  Web";
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+.ActionNBA-Medium-Web {
+    font-family: "Action NBA  Web";
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.ActionNBA-MediumItalic-Web {
+    font-family: "Action NBA  Web";
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+.ActionNBA-Bold-Web {
+    font-family: "Action NBA  Web";
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.ActionNBA-BoldItalic-Web {
+    font-family: "Action NBA  Web";
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Action NBA  Web";
+    src: url("fonts/ActionNBA-Light-Web.eot");
+    src: url("fonts/ActionNBA-Light-Web.eot?#iefix") format("embedded-opentype"), url("fonts/ActionNBA-Light-Web.woff2") format("woff2"), url("fonts/ActionNBA-Light-Web.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Action NBA  Web";
+    src: url("fonts/ActionNBA-LightItalic-Web.eot");
+    src: url("fonts/ActionNBA-LightItalic-Web.eot?#iefix") format("embedded-opentype"), url("fonts/ActionNBA-LightItalic-Web.woff2") format("woff2"), url("fonts/ActionNBA-LightItalic-Web.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Action NBA  Web";
+    src: url("fonts/ActionNBA-Medium-Web.eot");
+    src: url("fonts/ActionNBA-Medium-Web.eot?#iefix") format("embedded-opentype"), url("fonts/ActionNBA-Medium-Web.woff2") format("woff2"), url("fonts/ActionNBA-Medium-Web.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Action NBA  Web";
+    src: url("fonts/ActionNBA-MediumItalic-Web.eot");
+    src: url("fonts/ActionNBA-MediumItalic-Web.eot?#iefix") format("embedded-opentype"), url("fonts/ActionNBA-MediumItalic-Web.woff2") format("woff2"), url("fonts/ActionNBA-MediumItalic-Web.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Action NBA  Web";
+    src: url("fonts/ActionNBA-Bold-Web.eot");
+    src: url("fonts/ActionNBA-Bold-Web.eot?#iefix") format("embedded-opentype"), url("fonts/ActionNBA-Bold-Web.woff2") format("woff2"), url("fonts/ActionNBA-Bold-Web.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Action NBA  Web";
+    src: url("fonts/ActionNBA-BoldItalic-Web.eot");
+    src: url("fonts/ActionNBA-BoldItalic-Web.eot?#iefix") format("embedded-opentype"), url("fonts/ActionNBA-BoldItalic-Web.woff2") format("woff2"), url("fonts/ActionNBA-BoldItalic-Web.woff") format("woff");
+    font-weight: 700;
+    font-style: italic;
+}
+
+body {
+  background-color: #E5E5E5 !important;
+  font-family: "Roboto", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #bdbdbd;
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.7);
+}
+
+.headerTitle {
+    font-family: "Action NBA  Web" !important;
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-div {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1100;
+  cursor: auto;
+}
+
+.loading:after {
+  content: "";
+  border: 4px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 4px solid #1d4289;
+  border-bottom: 4px solid #d1112a;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+  z-index: 1110;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

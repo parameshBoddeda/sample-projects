@@ -1,0 +1,12 @@
+.appbar-nba-logo {
+    height: 54px;
+    width: 22px;
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../images/nba_logo.png");
+}
+
+.appbar-nba-logo-rightMargin {
+    margin-right: 16px;
+}

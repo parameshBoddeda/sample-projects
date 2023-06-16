@@ -1,0 +1,225 @@
+{
+   "accordion":[
+      {
+         "id":"panel1",
+         "title":"Collapsible Group Item #1",
+         "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor"
+      },
+      {
+         "id":"panel2",
+         "title":"Collapsible Group Item #2",
+         "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor"
+      },
+      {
+         "id":"panel3",
+         "title":"Collapsible Group Item #3",
+         "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor"
+      },
+      {
+         "id":"panel4",
+         "title":"Collapsible Group Item #4",
+         "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor"
+      }
+   ],
+   "modal":{
+      "title":"Text in a modal",
+      "desc":"Duis mollis, est non commodo luctus, nisi erat porttitor ligula."
+   },
+   "dropdownData":[
+      {
+         "label":"NBA",
+         "value":"nba"
+      },
+      {
+         "label":"WNBA",
+         "value":"wnba"
+      },
+      {
+         "label":"NBA G League",
+         "value":"gleague"
+      },
+      {
+         "label":"Hall of Fame",
+         "value":"halloffame"
+      },
+      {
+         "label":"USAB",
+         "value":"usab"
+      },
+      {
+         "label":"NBA2K League",
+         "value":"2kleague"
+      },
+      {
+         "label":"Jr. NBA",
+         "value":"jrleague"
+      },
+      {
+         "label":"BAL",
+         "value":"bal"
+      }
+   ],
+   "multiSelectDropdown":[
+      "Oliver Hansen",
+      "Van Henry",
+      "April Tucker",
+      "Ralph Hubbard",
+      "Omar Alexander",
+      "Carlos Abbott",
+      "Miriam Wagner",
+      "Bradley Wilkerson",
+      "Virginia Andrews",
+      "Kelly Snyder"
+   ],
+   "multiSelectList":[
+      "NBA",
+      "WNBA",
+      "NBA G LEague",
+      "Hall of Fame",
+      "USAB",
+      "NBA2K League",
+      "Jr. NBA",
+      "BAL"
+   ],
+   "RadioButtons":{
+      "defaultValue":"NBA",
+      "data":[
+         "NBA",
+         "WNBA",
+         "NBA G LEague",
+         "Hall of Fame",
+         "USAB",
+         "NBA2K League",
+         "Jr. NBA",
+         "BAL"
+      ]
+   },
+   "BreakData": {
+       "defaultValue": "Select",
+       "data": [
+          {
+             "value": "Select",
+             "label": "Select"
+           },                  
+           {
+             "value": "1",
+             "label": "1"
+           },
+           {
+             "value": "2",
+             "label": "2"
+           },
+           {
+             "value": "3",
+             "label": "3"
+           },
+           {
+             "value": "4",
+             "label": "4"
+           },
+           {
+             "value": "5",
+             "label": "5"
+           },
+           {
+             "value": "6",
+             "label": "6"
+           },
+           {
+             "value": "7",
+             "label": "7"
+           },
+           {
+             "value": "8",
+             "label": "8"
+           },
+           {
+             "value": "9",
+             "label": "9"
+           },
+           {
+             "value": "10",
+             "label": "10"
+           },
+           {
+             "value": "11",
+             "label": "11"
+           },
+           {
+             "value": "12",
+             "label": "12"
+           }
+ 
+       ]
+   },
+   "Position": {
+       "defaultValue": "Select",
+       "data": [
+          {
+             "value": "Select",
+             "label": "Select"
+          },
+          {
+             "value": "A",
+             "label": "A"
+          },
+          {
+             "value": "B",
+             "label": "B"
+          },
+          {
+             "value": "C",
+             "label": "C"
+          },
+          {
+             "value": "FR",
+             "label": "FR"
+          }
+       ]
+    },
+    "filterData": {
+       "data" : [
+          {
+             "key": "N1",
+             "name": "Name 1"
+          },
+          {
+             "key": "N2",
+             "name": "Name 2"
+          },
+          {
+             "key": "N3",
+             "name": "Name 3"
+          },
+          {
+             "key": "N4",
+             "name": "Name 4"
+          },
+          {
+             "key": "N5",
+             "name": "Name 5"
+          },
+          {
+             "key": "N6",
+             "name": "Name 6"
+          }
+       ]
+    },
+    "leagues": {
+       "data": [
+          { "key": 0, "label": "NBA" },
+          { "key": 1, "label": "WNBA" },
+          { "key": 2, "label": "G-League" },
+          { "key": 3, "label": "NBA 2KL" }
+       ]
+    },
+    "mediaType": {
+       "data": [
+          { "key": 0, "label": "TV" },
+          { "key": 1, "label": "Radio" }
+       ]
+    },
+    "mediaPlanner": [{
+         "value": "Lien, Christopher", "label": "Lien, Christopher"
+      }]
+ }

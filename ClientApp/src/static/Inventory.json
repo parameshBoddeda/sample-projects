@@ -1,0 +1,29 @@
+{
+
+	"rows": [{
+			"id": 1,
+			"unitType": "Billboard",
+			"unitCostType": "No Charge",
+			"unitSize": "30"
+			
+			
+		},
+        {
+			"id": 2,
+			"unitType": "Billboard",
+			"unitCostType": "No Charge",
+			"unitSize": "20"
+			
+			
+		},
+        {
+			"id": 3,
+			"unitType": "Commercial",
+			"unitCostType": "Institutional",
+			"unitSize": "20"
+			
+			
+		}
+      
+    ]
+}

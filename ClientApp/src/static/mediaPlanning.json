@@ -1,0 +1,55 @@
+{
+    "data": [
+        {
+            "Id": 1,
+            "CampaignOrAdvertiserId": 1,
+            "PlanName": "Media Plan 1",
+            "StatusId": "working",
+            "CustomerName": "Sony Consumer",
+            "Version": 1.1,
+            "Year": 2022,
+            "Region": "USA",
+            "Country": "USA",
+            "StartDate": "2022-05-04",
+            "EndDate": "2022-06-03",
+            "CreatedBy": "SandeepH",
+            "CreatedDate": "2022-05-04 04:25:22.353",
+            "UpdatedBy": "NULL",
+            "UpdatedDate": "NULL"
+        },
+        {
+            "Id": 2,
+            "CampaignOrAdvertiserId": 2,
+            "PlanName": "Media Plan 2",
+            "StatusId": "confirmed",
+            "CustomerName": "Nike",
+            "Version": 1.1,
+            "Year": 2022,
+            "Region": "USA",
+            "Country": "USA",
+            "StartDate": "2022-05-04",
+            "EndDate": "2022-06-03",
+            "CreatedBy": "SandeepH",
+            "CreatedDate": "2022-05-04 04:25:42.067",
+            "UpdatedBy": "NULL",
+            "UpdatedDate": "NULL"
+        },
+        {
+            "Id": 3,
+            "CampaignOrAdvertiserId": 3,
+            "PlanName": "Media Plan 3",
+            "StatusId": "working",
+            "CustomerName": "Nestle",
+            "Version": 1.1,
+            "Year": 2022,
+            "Region": "USA",
+            "Country": "USA",
+            "StartDate": "2022-05-04",
+            "EndDate": "2022-06-03",
+            "CreatedBy": "SandeepH",
+            "CreatedDate": "2022-05-04 04:25:53.393",
+            "UpdatedBy": "NULL",
+            "UpdatedDate": "NULL"
+        }
+    ]
+}

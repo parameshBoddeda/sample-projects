@@ -1,0 +1,50 @@
+.NBA_Logo {
+    margin-top: 5px;
+    background-image: url("../../images/nba.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
+
+.WNBA_Logo {
+    margin-top: 5px;
+    background-image: url("../../images/wnba_logo.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
+
+.GLEAGUE_Logo {
+    margin-top: 5px;
+    background-image: url("../../images/gleague_logo.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
+
+.BAL_Logo {
+    margin-top: 5px;
+    background-image: url("../../images/BAL_logo.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
+
+.TWOK_Logo {
+    margin-top: 5px;
+    background-image: url("../../images/2k_logo.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
+
+.USAB_Logo {
+    margin-top: 5px;
+    background-image: url("../../images/USAB_logo.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.JRNBA_Logo {
+    margin-top: 5px;
+    background-image: url("../../images/JRNBA_Logo.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-width: 70px;
+}
