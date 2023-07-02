@@ -46,7 +46,7 @@ const options = {
     family: 4 // Use IPv4, skip trying IPv6
 }
 
-mongoose.connect('mongodb://localhost:27017/users',options,()=>{console.log('DB connected')});
+mongoose.connect('mongodb+srv://paramesh:paramesh@cluster0.hl1zdom.mongodb.net/users',options,()=>{console.log('DB connected')});
 
 var app = express();
 app.use(cors())
